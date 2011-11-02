@@ -13,8 +13,6 @@
 	<link rel="stylesheet" href="pinbox.css" />
 
 ### 2. Add an `<img />` tag and specify dimensions
-
-If your users have JavaScript and Flash, this is the easist route for all browsers and mobile devices.
 	
 	<img src="images/convent-pano.jpg"
 		width="940"
@@ -32,7 +30,8 @@ If your users have JavaScript and Flash, this is the easist route for all browse
 
 	<script>
 	jQuery(document).ready(function($) {
-	$('.pinbox').pinbox();
+		$('.pinbox').pinbox();
 	});
 	</script>
 
+	
