@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Pinbox.js Demo</title>
+
+	<script src="src/jquery.js"></script>
+	<script src="src/jquery.pinbox.js"></script>
+	<link rel="stylesheet" href="src/jquery.pinbox.css" />
+	
+	<style>
+
+	body {
+		background: #F3F5FA;
+	}
+	#container {
+		width: 940px;
+		padding: 20px;
+		background: #F8F8F8;
+		border: solid 1px #ccc;
+		color: #111;
+		margin: 20px auto;
+		border-radius: 3px;
+	}
+
+		
+	</style>
+</head>
+<body>
+
+	<div id="container">
+
+	<h1>Pinbox.js</h1>
+	
+	<p>Below are photos of the East Dallas area in and and around the <a href="http://www.dts.edu/">Dallas Theological Seminary</a> campus.</p>
+	
+	<h2>Live Oak Street</h2>
+
+	<img src="images/live-oak-pano.jpg"
+		width="940" 
+		height="181"
+		data-small-src="images/live-oak-pano-inner.jpg"
+		data-small-width="539"
+		data-small-height="94"
+		data-small-left="228"
+		data-small-top="30"
+		class="pinbox"
+		alt="View from Live Oak Street"
+	/>	
+	
+	<h2>Convent Street</h2>
+	
+	<img src="images/convent-pano.jpg"
+		width="940" 
+		height="365"
+		data-small-src="images/convent-pano-inner.jpg"
+		data-small-width="507"
+		data-small-height="264"
+		data-small-left="163"
+		data-small-top="11"
+		class="pinbox"
+		alt="View from Convent Street"
+	/>	
+	
+	<h2>Swiss Land</h2>
+	
+	<img src="images/swissland.jpg"
+		width="900" 
+		height="600"
+		data-small-src="images/swissland-inner.jpg"
+		data-small-width="310"
+		data-small-height="200"
+		data-small-left="96"
+		data-small-top="106"
+		class="pinbox"
+		alt="Old Swiss Land apartment complex"
+	/>		
+	
+</div>
+
+<script>
+jQuery(document).ready(function($) {
+	$('.pinbox').pinbox();
+});
+</script>
+
+</body>
+</html>
