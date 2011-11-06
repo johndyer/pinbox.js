@@ -13,7 +13,7 @@
 	<link rel="stylesheet" href="pinbox.css" />
 
 ### 2. Add an `<img />` tag and specify dimensions
-	
+
 	<img src="images/convent-pano.jpg"
 		width="940"
 		height="365"
@@ -34,4 +34,4 @@
 	});
 	</script>
 
-	
+
