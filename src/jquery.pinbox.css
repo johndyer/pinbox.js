@@ -6,9 +6,9 @@
 .pinbox-border {
 	border: solid 1px #fff;
 	box-shadow: 0 0 5px #333;
-	position: absolute;		
+	position: absolute;
 }
 .pinbox-inner {
 	display: none;
-	opacity: 0;		
+	opacity: 0;
 }
